@@ -1,0 +1,83 @@
+
+
+#nav{
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgb(156, 149, 149);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#nav>article{
+    height: 80px;
+    width: 90%;
+    /* border: 2px solid white; */
+    display: flex;
+}
+
+#nav>article>.logo{
+    height: 80px;
+    width: 10%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav>article>.logo>img{
+    background-color: white;
+    height:100%;
+    width:100%;
+}
+
+#nav>article>.menu{
+    height: 80px;
+    width: 45%;
+    
+}
+
+#nav>article>.menu>ol{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    list-style-type: none;
+}
+
+#nav>article>.menu>ol>li>a{
+    color: rgb(62, 65, 82);
+   text-decoration: none;
+   font-size: 13px;
+   font-weight: bold;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+#nav>article>.profile{
+    height: 80px;
+    width: 50%;
+    
+}
+
+#nav>article>.profile>ol{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    
+
+}
+
+#nav>article>.profile>ol>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+   font-weight: bold;
+   font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#nav>article>.profile>ol>li>a>i{
+    color: black;
+}

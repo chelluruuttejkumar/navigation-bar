@@ -1,0 +1,11 @@
+#nav{
+    height: 100vh;
+    text-align: center;
+    background-color: wheat;
+    color:black;
+    padding: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}

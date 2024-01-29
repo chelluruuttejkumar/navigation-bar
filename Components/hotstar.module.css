@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(12,17,27); */
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgb(156, 149, 149);
+    background-color: rgb(19,26,39);
+    display: flex;
+    justify-content: center;
+}
+
+#nav>article{
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+}
+
+#nav>article>.logo{
+    height: 80px;
+    width: 16%;
+    /* background-color: blueviolet; */
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav>article>.logo>img{
+    background-color: rgb(19,26,39);
+    height: 43px;
+}
+
+#nav>article>.menu{
+    height: 80px;
+    width: 30%;
+    /* background-color: chartreuse; */
+    
+}
+#nav>article>.menu>ol{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    list-style-type: none;
+}
+
+#nav>article>.menu>ol>li>a{
+    color: rgb(227, 227, 227);
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: normal;
+   display: inline-block;
+   text-transform: none;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+#nav>article>.menu>ol>li>.kids{
+    color: rgb(255, 191, 0);
+}
+
+#nav>article>.search{
+    height: 80px;
+    width: 39%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+#nav>article>.search>div>input{
+    position: relative;
+    width: 240px;
+    height: 32px;
+    color: white;
+    border: none;
+    border-bottom: 1px solid rgb(206, 205, 205);
+    font-size: 16px;
+    background:none;
+    border-radius: 0;
+    outline: 0;
+    padding: 0 28px 0 0px;
+}
+
+#nav>article>.search>div>i{
+    font-size: 16px;
+    color: white;
+}
+
+#nav>article>.profile{
+    height: 80px;
+    width: 15%;
+    /* background-color: darkviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#nav>article>.profile>div>button{
+    font-size: 14px;
+    font-weight: 700;
+    background: transparent;
+    border: 1px solid rgb(37, 37, 239);
+    text-align: center;
+    position: relative;
+    outline: none;
+    margin: 15px 0 15px 20px;
+    padding: 0 12px;
+    letter-spacing: 0.4px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 4px;
+    color: rgb(37, 37, 239);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#nav>article>.profile>div>i{
+    font-size: 30px;
+    margin-left: 15px;
+   color: rgb(222, 223, 224);
+}

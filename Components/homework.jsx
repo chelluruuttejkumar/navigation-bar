@@ -1,0 +1,7 @@
+const props=()=>{
+    let Obj={
+        [
+            
+        ]
+    }
+}

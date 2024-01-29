@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Nav{
+    height: 80px;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+#Nav>article{
+    height: 80px;
+    width: 80%;
+    display: flex;
+
+}
+#Nav>article>.logo{
+    height: 25px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#Nav>article>.menu{
+    height: 25px;
+    width: 50%;
+
+}
+#Nav>article>.logo>svg{
+    width: 25%;
+    fill: white;
+
+}
+#Nav>article>.menu>ol{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#Nav>article>.menu>ol>li>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+}
